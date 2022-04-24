@@ -1,0 +1,26 @@
+.font-small {
+  font-size: 0.9rem;
+}
+.text-center {
+  text-align: center !important;
+}
+
+.footer-copyright {
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.color1 {
+  color: blue;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(241, 184, 76);
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

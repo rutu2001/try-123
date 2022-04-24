@@ -1,0 +1,70 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height: 70vh;
+  color: black;
+}
+
+.allemp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 20vh;
+  color: black;
+}
+.mar {
+  margin-right: 8px;
+}
+
+.mar1 {
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.button_ex {
+  float: right;
+}
+
+.marn {
+  margin-right: 15px;
+  color: black;
+}
+img {
+  background-repeat: no-repeat;
+  height: 678px;
+  width: 1535px;
+  background-size: cover;
+}
+.req {
+  color: red;
+}
+.centered {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav {
+  background-color: orange;
+}
+.title {
+  color: black;
+}
+
+.mid {
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  align-content: center;
+}
+
+.image {
+  background-color: orangered;
+}
+
+.table {
+  margin-left: 100px;
+}
