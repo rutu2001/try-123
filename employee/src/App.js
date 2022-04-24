@@ -18,25 +18,7 @@ import Allforts1 from "./components/Allforts/Allforts1";
 import bootstrap from "bootstrap";
 
 function App() {
-  return (
-    <div>
-      <Router>
-        <Navbar></Navbar>
-        <Switch>
-          <Route exact path={"/"}>
-            <Home slides={sliderData}></Home>
-          </Route>
-          <Route path={"/registration"} component={Registration} />
-          <Route path={"/all"} component={AllEmp} />
-          <Route path={"/edituser/:id"} component={EditUser} />
-          <Route path={"/view/:id"} component={View} />
-          <Route path={"/district"} component={district} />
-          <Route path={`/allforts/:distid`} component={AllForts} />
-          <Route path={"/viewfort/:distid/:fortid"} component={Viewfort} />
-        </Switch>
-      </Router>
-    </div>
-  );
+  return <div>hello</div>;
 }
 
 export default App;
